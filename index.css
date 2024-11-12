@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+body{
+    padding: left right 20px;
+}
+h1{
+    font-family:Parisienne;
+    font-size: 3em;
+    text-align: center;
+    color: darkgoldenrod;
+    padding: bottom 5px;
+}
+#eslogan{
+    font-family: Caveat;
+    font-style: italic;
+    text-align: center;
+    font-size: 2em;
+    color: cornsilk;
+    border: solid 2px cornsilk 40%;
+
+}
+#fc {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+h2{
+    color: #FFE4C4;
+    font-family:Pacifico;
+}
+li a{
+    font-size: 1.5em;
+    font-family: Pacifico;
+    text-decoration: none;
+
+}
+a link{
+    color: white;
+}
+:hover{
+    font-weight: bold;
+}
+:active{
+    color: darkgoldenrod;
+}
+.textonormal{
+    font-family:Satisfy;
+    font-size: 1.2em;
+    color: #FFE4C4;
+    line-height: 2;
+    padding: 30px;    
+}
+#contenedor-logo{
+    text-align: center;
+}
+#fondo{
+    background-size:cover;
+}
