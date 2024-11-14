@@ -63,3 +63,25 @@ a:active{
 #contenedor-logo{
     text-align: center;
 }
+#fotocarta{
+    width: 200px;
+    height: 200px;
+}
+#class{
+    background-color: darkgoldenrod;
+    font-size: 2em;
+    text-shadow: 3px 3px white;
+}
+table td th{
+    border: 3px solid darkgoldenrod;
+    border-collapse: collapse;
+    vertical-align: center;
+    width: 50%;
+    padding: 20px;
+}
+table{
+    background-color: cornsilk;
+    font-family: "Satisfy", cursive;
+    font-size: 1.5em;
+    
+}

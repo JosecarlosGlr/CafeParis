@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Café Paris</h1>
+    <p id="eslogan">Un momento de relax</p>
+    <ul type=”A”>
+        <a href="index.html"><li>Principal</li></a>
+        <a href="carta.html"><li>Nuestra Carta</li></a>
+        <a href="contacto.html"><li>Contácte con nosotros</li></a>
+      </ul>
+      <h2>Contácte con nosotros</h2>
+
+    <form action="contacte.php" method="post">
+    <fieldset>
+    <p>
+        <label for="nom">Nombre y Apellidos:</label>
+        <input type="text" maxlength="50"
+        name="nombre" required autofocus
+        id="nom">
+    </p>
+
+    <p>Nivel</p>
+    <p>
+        <input type="radio" value="Pro"
+        id="pro" name="nivel">
+        <label for="Pro">Cafe</label>
+        <br>
+    </p>
+    <p>
+        <input type="radio" value="Ava"
+        id="ava" name="nivel" checked>
+        <label for="Ava">Té</label>
+        <br>
+    </p>
+    <p>
+        <input type="radio" value="Pri"
+        id="pri" name="nivel">
+        <label for="pri">Ambos</label>
+    </p>
+    <p>
+        <input >
+    </p>
+    <p>
+        <input type="checkbox"
+        id="info" name="info"
+        checked>
+        <label for="info">Deseo recibir información sobre novedades y ofertas</label>
+    </p>
+    </fieldset>
+
+    </p>
+    <!--Botones de envío y reset-->
+    <input type="submit" value="Enviar">
+    <input type="reset"
+    value="Reiniciar">
+</p>
