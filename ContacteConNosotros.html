@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="ContaceteConNosotros.css">
 </head>
 <body>
     <h1>Café Paris</h1>
@@ -12,51 +12,60 @@
     <ul type=”A”>
         <a href="index.html"><li>Principal</li></a>
         <a href="carta.html"><li>Nuestra Carta</li></a>
-        <a href="contacto.html"><li>Contácte con nosotros</li></a>
+        <a href="ContacteConNosotros.html"><li>Contácte con nosotros</li></a>
       </ul>
       <h2>Contácte con nosotros</h2>
 
-    <form action="contacte.php" method="post">
-    <fieldset>
+    <form action="procesacontacto.php" method="get">
     <p>
         <label for="nom">Nombre y Apellidos:</label>
         <input type="text" maxlength="50"
-        name="nombre" required autofocus
+        name="nombre" required autofocus placeholder="Escriba su nombre y apellidos"
         id="nom">
     </p>
-
-    <p>Nivel</p>
     <p>
+        <label for="fec">Fecha nacimiento</label>
+        <input type="date" maxlength="50"
+        name="nombre" required autofocus>
+    </p>
+    <p>
+        <label for="sul">Suele consumir</label>
         <input type="radio" value="Pro"
-        id="pro" name="nivel">
+        id="pro" name="nivel" checked>
         <label for="Pro">Cafe</label>
-        <br>
-    </p>
-    <p>
         <input type="radio" value="Ava"
-        id="ava" name="nivel" checked>
+        id="ava" name="nivel">
         <label for="Ava">Té</label>
-        <br>
-    </p>
-    <p>
         <input type="radio" value="Pri"
         id="pri" name="nivel">
         <label for="pri">Ambos</label>
     </p>
     <p>
-        <input >
+        <label for="num">Numero de cafes al dia</label>
+        <input type="number"
+        max="5" min="1">
     </p>
+    <p>
+        <label for="sel">Seleccione su cafeteria</label>
+        <select name="Seleccione su cafeteria" id="Seleccionar">
+        <option value="M" selected>Madrid </option>
+        <option value="B">Barcelona</option>
+        <option value="S">Sevilla</option>
+        </select>
+    
+    </p>
+
     <p>
         <input type="checkbox"
         id="info" name="info"
         checked>
         <label for="info">Deseo recibir información sobre novedades y ofertas</label>
     </p>
-    </fieldset>
-
-    </p>
-    <!--Botones de envío y reset-->
-    <input type="submit" value="Enviar">
-    <input type="reset"
-    value="Reiniciar">
 </p>
+<!--Botones de envío y reset-->
+<input type="submit" value="Enviar">
+<input type="reset"
+value="Reiniciar">
+</p>
+
+

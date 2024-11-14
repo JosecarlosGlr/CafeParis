@@ -4,7 +4,7 @@
 
 body{
     padding: left right 20px;
-    background-image:url(4.jpg);
+    background-image:url(images/4.jpg);
     background-size:cover;
     background-attachment: scroll;
 }
@@ -35,7 +35,7 @@ h2{
     color: #FFE4C4;
     font-family: "Pacifico", cursive;
 }
-li a{
+a{
     font-size: 1.5em;
     font-family: "Pacifico", cursive;
     text-decoration: none;
@@ -53,6 +53,9 @@ a:active{
     color: darkgoldenrod;
     font-family: "Pacifico", cursive;
 }
+a:visited{
+    color: white;
+}
 .textoNormal{
     font-family: "Satisfy", cursive;
     font-size: 1.2em;
@@ -62,4 +65,17 @@ a:active{
 }
 #contenedor-logo{
     text-align: center;
+}
+form{
+    border: 2px solid darkgoldenrod;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    background-color: black;
+}
+label{
+    font-family: "Caveat", serif;
+    color: cornsilk;
+    font-size: 1.5em;
 }

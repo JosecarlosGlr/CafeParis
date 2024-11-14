@@ -4,7 +4,7 @@
 
 body{
     padding: left right 20px;
-    background-image:url(4.jpg);
+    background-image:url(images/4.jpg);
     background-size:cover;
     background-attachment: scroll;
 }
@@ -35,11 +35,10 @@ h2{
     color: #FFE4C4;
     font-family: "Pacifico", cursive;
 }
-li a{
+a{
     font-size: 1.5em;
     font-family: "Pacifico", cursive;
     text-decoration: none;
-
 }
 a:link{
     color: white;
@@ -52,6 +51,9 @@ a:hover{
 a:active{
     color: darkgoldenrod;
     font-family: "Pacifico", cursive;
+}
+a:visited{
+    color: white;
 }
 .textoNormal{
     font-family: "Satisfy", cursive;
@@ -72,7 +74,7 @@ a:active{
     font-size: 2em;
     text-shadow: 3px 3px white;
 }
-table td th{
+table, td, th{
     border: 3px solid darkgoldenrod;
     border-collapse: collapse;
     vertical-align: center;
@@ -83,5 +85,11 @@ table{
     background-color: cornsilk;
     font-family: "Satisfy", cursive;
     font-size: 1.5em;
-    
+    text-align: center;
+    margin: auto;
+}
+#categoria{
+    background-color: darkgoldenrod;
+    font-size: 2em;
+    text-shadow: 3px 3px white;
 }
