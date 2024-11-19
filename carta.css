@@ -6,7 +6,7 @@ body{
     padding: left right 20px;
     background-image:url(images/4.jpg);
     background-size:cover;
-    background-attachment: scroll;
+    background-attachment: fixed;    
 }
 h1{
     font-family: "Pacifico", cursive;
