@@ -87,6 +87,7 @@ table{
     font-size: 1.5em;
     text-align: center;
     margin: auto;
+    width: 60%;
 }
 #categoria{
     background-color: darkgoldenrod;
